@@ -1,2 +1,4 @@
 
 ini data baru
+
+#data ini adlaah sebuah komentas yang ditambahkan
