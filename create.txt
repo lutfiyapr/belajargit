@@ -1,5 +1,0 @@
-create data
-
-update data
-
-update data ke dua
