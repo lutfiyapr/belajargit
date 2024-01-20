@@ -1,2 +1,38 @@
+ssh-keygen
+    # untuk membuat kode ssh di perangkat yang menghasilkan kode ssh publik maupun private
 
-data ini adlaah data yang dihapus
+ssh -T git@github.com
+    # melakukan authentikasi terhadap akun yang berada di gituhub
+
+git remote add nama ssh-url
+    # untuk menambah remote repository 
+
+git remote
+    # untuk melihat remote repository yang ada di git project
+
+git remote get-url nama
+    # untuk melihat URL detail remote repository
+
+git remote rm nama
+    # untuk menghapus remote repository
+
+git push namaremote localbranch
+    # untuk mengirim perubahan branch ke remote repository dengan nama branch sama
+
+git pull namaremote localbranch
+    # untuk mengirim perubahan branch ke remote repository dengan nama branch sama
+
+git push namaremote localbranch:remotebranch
+    # untuk mengurum perubahan branch ke remote repository dengan nama branch yang berbeda
+
+git push origin --all
+    # untuk mengirim semua perubahan di semua branch ke remote repository
+
+git push --delete namaremote namabranch
+    # untuk menghapus branch yang ada di remote repository
+
+git clone urlremoterepository
+    # untuk melakukan clone dengan nama folder yang sama dengan nama project remote repositorynya
+    
+git clone urlremoterepository namafolder
+    # untuk melakukan clone dengan nama folder yang berbeda dengan nama project remote repositorynya
