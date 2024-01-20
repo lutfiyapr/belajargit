@@ -27,3 +27,9 @@ git push origin --all
 
 git push --delete namaremote namabranch
     # untuk menghapus branch yang ada di remote repository
+
+git clone urlremoterepository
+    # untuk melakukan clone dengan nama folder yang sama dengan nama project remote repositorynya
+    
+git clone urlremoterepository namafolder
+    # untuk melakukan clone dengan nama folder yang berbeda dengan nama project remote repositorynya
