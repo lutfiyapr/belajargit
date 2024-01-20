@@ -1,4 +1,2 @@
 
-ini data baru
-
-#data ini adlaah sebuah komentas yang ditambahkan
+data ini adlaah data yang dihapus
